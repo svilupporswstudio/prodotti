@@ -1,0 +1,6 @@
+{
+  "name": "Prodotti — WordPress Plugin Packager",
+  "description": "Organized WordPress plugin 'Prodotti' (v2.0.0) upgraded for PHP 8.3 and WordPress 7.0–7.2, with GitHub Actions CI workflow and downloadable plugin archive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

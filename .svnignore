@@ -1,0 +1,23 @@
+# File e cartelle da escludere dal deploy verso WordPress.org Plugin Directory (SVN)
+.git
+.github
+.gitignore
+.svnignore
+.DS_Store
+.env
+.env.*
+node_modules
+dist
+src
+public
+index.html
+metadata.json
+package.json
+package-lock.json
+bun.lock
+tsconfig.json
+vite.config.ts
+*.zip
+*.log
+**/.gitkeep
+**/.DS_Store
