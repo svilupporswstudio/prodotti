@@ -249,7 +249,7 @@ export default function App() {
             <div>
               <dt className="text-xs text-slate-500">File nel pacchetto</dt>
               <dd className="font-semibold text-slate-900 tabular-nums mt-0.5">
-                {PLUGIN_FILES.filter((f) => f.inPluginZip).length} file · 2 repo CI
+                {PLUGIN_FILES.filter((f) => f.inPluginZip).length} file · 3 repo CI
               </dd>
             </div>
           </dl>
@@ -614,7 +614,8 @@ export default function App() {
               </div>
 
               <pre className="p-4 bg-slate-950 text-slate-100 rounded-md font-mono text-xs leading-6 overflow-x-auto">
-{`.svnignore
+{`README.md
+.svnignore
 .github/
 └── workflows/
     └── wordpress-plugin.yml

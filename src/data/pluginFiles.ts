@@ -9,6 +9,7 @@ import prodottiWidget from '../../prodotti/includes/prodotti-widget.php?raw';
 import prodottiPluginAggiuntivi from '../../prodotti/includes/prodotti-pluginaggiuntivi.php?raw';
 import githubWorkflow from '../../.github/workflows/wordpress-plugin.yml?raw';
 import svnIgnore from '../../.svnignore?raw';
+import repoReadme from '../../README.md?raw';
 
 export interface PluginFileEntry {
   id: string;
@@ -129,6 +130,17 @@ export const PLUGIN_FILES: PluginFileEntry[] = [
     summary: 'Gestione dipendenze plugin con funzioni standard WordPress (get_plugins, is_plugin_active, wp_admin_notice).',
     content: prodottiPluginAggiuntivi,
     inPluginZip: true,
+  },
+  {
+    id: 'repo-readme',
+    path: 'README.md',
+    zipPath: 'README.md',
+    folder: 'root',
+    name: 'README.md',
+    language: 'txt',
+    summary: 'Documentazione repository GitHub con riepilogo versione 2.0.0 e istruzioni per la release.',
+    content: repoReadme,
+    inPluginZip: false,
   },
   {
     id: 'svnignore',
